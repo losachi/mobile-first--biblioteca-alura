@@ -1,3 +1,26 @@
 .cabeçalho_menu-hamburguer{
+    width:24px;
+    height: 24px;
     background-image: url(../imagem/Menu.svg.png);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabeçalho{
+background-color: var(--branco);
+display: flex;
+justify-content: space-between;
+}
+
+.div-1{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width:1024px) {
+h1{
+    font-size: 30px;
+    display: block;
+}    
 }
